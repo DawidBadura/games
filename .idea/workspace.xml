@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6dcbcd71-8770-4c20-8c56-f9fa7bebce98" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Games">
+      <favorite_root url="file://$PROJECT_DIR$/youtubecoursejavafx/src/main/java/spacerunner/ShipPicker.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a3MDxs1fBSyPb8owq64FgpqZs8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BattleTanks/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dawid\IdeaProjects\Games\BattleTanks\src\main\resources" />
+      <recent name="C:\Users\Dawid\IdeaProjects\Games\youtubecoursejavafx\src\main\java\spacerunner\resources" />
+      <recent name="C:\Users\Dawid\IdeaProjects\Games\youtubecoursejavafx\src\main\java\spacerunner" />
+      <recent name="C:\Users\Dawid\IdeaProjects\Games\youtubecoursejavafx\src\main\java\blackjack\resources" />
+      <recent name="C:\Users\Dawid\IdeaProjects\Games" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dawid\IdeaProjects\Games\BattleTanks\src\main\resources" />
+      <recent name="C:\Users\Dawid\IdeaProjects\Games\youtubecoursejavafx\src\main\java\spacerunner\resources" />
+      <recent name="C:\Users\Dawid\IdeaProjects\Games\youtubecoursejavafx\src\main\java\asteroids\resources\sounds" />
+      <recent name="C:\Users\Dawid\IdeaProjects\Games\src\main\resources" />
+      <recent name="C:\Users\Dawid\IdeaProjects\Games" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Blackjack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.Blackjack" />
+      <module name="Games.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlackjackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="blackjack.BlackjackApp" />
+      <module name="Games.youtubecoursejavafx.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blackjack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameMenuDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="menu.GameMenuDemo" />
+      <module name="Games.youtubecoursejavafx.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spacerunner.Main" />
+      <module name="Games.youtubecoursejavafx.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spacerunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Games.BattleTanks.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GameMenuDemo" />
+        <item itemvalue="Application.BlackjackApp" />
+        <item itemvalue="Application.Blackjack" />
+        <item itemvalue="Application.Main (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6dcbcd71-8770-4c20-8c56-f9fa7bebce98" name="Default Changelist" comment="" />
+      <created>1585959707222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585959707222</updated>
+      <workItem from="1585959723132" duration="3986000" />
+      <workItem from="1586048915413" duration="32758000" />
+      <workItem from="1586434081649" duration="1646000" />
+      <workItem from="1588240448430" duration="4262000" />
+      <workItem from="1588262651035" duration="957000" />
+      <workItem from="1588408633966" duration="3777000" />
+      <workItem from="1588547173433" duration="967000" />
+      <workItem from="1588626047626" duration="4947000" />
+      <workItem from="1588778221261" duration="21444000" />
+      <workItem from="1588880367561" duration="29185000" />
+      <workItem from="1589022388357" duration="13308000" />
+      <workItem from="1589101089566" duration="140000" />
+      <workItem from="1589280740959" duration="841000" />
+      <workItem from="1589296783164" duration="4019000" />
+      <workItem from="1589362413864" duration="23000" />
+      <workItem from="1589399050914" duration="20306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1586102117755">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586102117755" />
+    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589439065236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589439065236" />
+    <state x="99" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585960256093">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="99" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585960256093" />
+    <state x="623" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1589444376225">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="623" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589444376225" />
+    <state x="779" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589439207330" />
+    <state x="572" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588633474973">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="572" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588633474973" />
+    <state x="1299" y="425" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588804763692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1299" y="425" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1588804763692" />
+    <state width="1921" height="135" key="GridCell.Tab.0.bottom" timestamp="1589462998273">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1537" height="25" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589450120563" />
+    <state width="1921" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589462998273" />
+    <state width="1921" height="135" key="GridCell.Tab.0.center" timestamp="1589462998273">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1537" height="25" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589450120563" />
+    <state width="1921" height="135" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589462998273" />
+    <state width="1921" height="135" key="GridCell.Tab.0.left" timestamp="1589462998273">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1537" height="25" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589450120563" />
+    <state width="1921" height="135" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589462998273" />
+    <state width="1921" height="135" key="GridCell.Tab.0.right" timestamp="1589462998273">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1537" height="25" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589450120563" />
+    <state width="1921" height="135" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589462998273" />
+    <state width="797" height="344" key="GridCell.Tab.1.bottom" timestamp="1586223840486">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="797" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586223840486" />
+    <state width="797" height="344" key="GridCell.Tab.1.center" timestamp="1586223840486">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="797" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586223840486" />
+    <state width="797" height="344" key="GridCell.Tab.1.left" timestamp="1586223840486">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="797" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586223840486" />
+    <state width="797" height="344" key="GridCell.Tab.1.right" timestamp="1586223840486">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="797" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586223840486" />
+    <state x="0" y="98" key="SettingsEditor" timestamp="1586054363838">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="98" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586054363838" />
+    <state x="461" y="301" key="chooseDestDirectoryDialog" timestamp="1585960183377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="301" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585960183377" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589399060439">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588262652896" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589399060439" />
+    <state x="690" y="275" key="extract.method.dialog" timestamp="1588959801012">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588959801012" />
+    <state x="342" y="132" key="new project wizard" timestamp="1586102078377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="132" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586102078377" />
+    <state x="648" y="366" width="707" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1586052888780">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="648" y="366" width="707" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586052888780" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586205961617">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586205961617" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/youtubecoursejavafx/src/main/java/LevelData.java</url>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
