@@ -1,3 +1,5 @@
+package bricksgame;
+
 public class LevelData {
     public static final String[] LEVEL1= new String[]{
             "000000000000000002000000000000000000000000",

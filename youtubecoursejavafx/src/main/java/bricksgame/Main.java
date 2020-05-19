@@ -1,10 +1,10 @@
+package bricksgame;
+
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
 import javafx.geometry.Point2D;
 import javafx.scene.Node;
 import javafx.scene.Scene;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
@@ -16,6 +16,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 
 public class Main extends Application {
+
     private HashMap<KeyCode, Boolean> keys = new HashMap<KeyCode, Boolean>();
 
     private ArrayList<Node> platforms = new ArrayList<Node>();
@@ -24,15 +25,9 @@ public class Main extends Application {
     private Pane appRoot = new Pane();
     private Pane gameRoot = new Pane();
     private Pane uiRoot = new Pane();
-    Image card = new Image("file:src/main/resources/tank.png");
-    ImageView obj=new ImageView(card);
-    ImageView pldayer=new ImageView((new Image((getClass().getResourceAsStream("file:src/main/resources/tank.png")))));
-
 
     private Node player;
-
-
-        private Point2D playerVelocity = new Point2D(0, 0);
+    private Point2D playerVelocity = new Point2D(0, 0);
     private boolean canJump = true;
 
     private int levelWidth;
@@ -41,7 +36,9 @@ public class Main extends Application {
 
     private void initContent() {
         Rectangle bg = new Rectangle(1280, 720);
+
         levelWidth = LevelData.LEVEL1[0].length() * 60;
+
         for (int i = 0; i < LevelData.LEVEL1.length; i++) {
             String line = LevelData.LEVEL1[i];
             for (int j = 0; j < line.length(); j++) {
@@ -49,23 +46,27 @@ public class Main extends Application {
                     case '0':
                         break;
                     case '1':
-                        Node platform = (Node)obj;//createEntity(j * 60, i * 60, 60, 60, Color.BROWN);
+                        Node platform = createEntity(j*60, i*60, 60, 60, Color.BROWN);
                         platforms.add(platform);
                         break;
                     case '2':
-                        Node coin = createEntity(j * 60, i * 60, 60, 60, Color.GOLD);
-                        platforms.add(coin);
+                        Node coin = createEntity(j*60, i*60, 60, 60, Color.GOLD);
+                        coins.add(coin);
                         break;
                 }
             }
         }
-        player = createEntity(30, 600, 40, 40, Color.BLUE);
+
+        player = createEntity(0, 600, 40, 40, Color.BLUE);
+
         player.translateXProperty().addListener((obs, old, newValue) -> {
             int offset = newValue.intValue();
+
             if (offset > 640 && offset < levelWidth - 640) {
                 gameRoot.setLayoutX(-(offset - 640));
             }
         });
+
         appRoot.getChildren().addAll(bg, gameRoot, uiRoot);
     }
 
@@ -73,16 +74,20 @@ public class Main extends Application {
         if (isPressed(KeyCode.W) && player.getTranslateY() >= 5) {
             jumpPlayer();
         }
+
         if (isPressed(KeyCode.A) && player.getTranslateX() >= 5) {
             movePlayerX(-5);
         }
-        if (isPressed(KeyCode.D) && player.getTranslateX() + 40 <=levelWidth - 5) {
+
+        if (isPressed(KeyCode.D) && player.getTranslateX() + 40 <= levelWidth - 5) {
             movePlayerX(5);
         }
+
         if (playerVelocity.getY() < 10) {
             playerVelocity = playerVelocity.add(0, 1);
         }
-        movePlayerY((int) playerVelocity.getY());
+
+        movePlayerY((int)playerVelocity.getY());
 
         for (Node coin : coins) {
             if (player.getBoundsInParent().intersects(coin.getBoundsInParent())) {
@@ -94,22 +99,16 @@ public class Main extends Application {
 
         for (Iterator<Node> it = coins.iterator(); it.hasNext(); ) {
             Node coin = it.next();
-            if (!(Boolean) coin.getProperties().get("alive")) {
+            if (!(Boolean)coin.getProperties().get("alive")) {
                 it.remove();
                 gameRoot.getChildren().remove(coin);
             }
         }
     }
 
-    private void jumpPlayer() {
-        if (canJump) {
-            playerVelocity = playerVelocity.add(0, -30);
-            canJump = false;
-        }
-    }
-
     private void movePlayerX(int value) {
         boolean movingRight = value > 0;
+
         for (int i = 0; i < Math.abs(value); i++) {
             for (Node platform : platforms) {
                 if (player.getBoundsInParent().intersects(platform.getBoundsInParent())) {
@@ -117,7 +116,8 @@ public class Main extends Application {
                         if (player.getTranslateX() + 40 == platform.getTranslateX()) {
                             return;
                         }
-                    } else {
+                    }
+                    else {
                         if (player.getTranslateX() == platform.getTranslateX() + 60) {
                             return;
                         }
@@ -152,8 +152,11 @@ public class Main extends Application {
         }
     }
 
-    private boolean isPressed(KeyCode key) {
-        return keys.getOrDefault(key,false);
+    private void jumpPlayer() {
+        if (canJump) {
+            playerVelocity = playerVelocity.add(0, -30);
+            canJump = false;
+        }
     }
 
     private Node createEntity(int x, int y, int w, int h, Color color) {
@@ -165,12 +168,16 @@ public class Main extends Application {
 
         gameRoot.getChildren().add(entity);
         return entity;
+    }
 
+    private boolean isPressed(KeyCode key) {
+        return keys.getOrDefault(key, false);
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception {
         initContent();
+
         Scene scene = new Scene(appRoot);
         scene.setOnKeyPressed(event -> keys.put(event.getCode(), true));
         scene.setOnKeyReleased(event -> keys.put(event.getCode(), false));
@@ -184,6 +191,7 @@ public class Main extends Application {
                 if (running) {
                     update();
                 }
+
                 if (dialogEvent) {
                     dialogEvent = false;
                     keys.keySet().forEach(key -> keys.put(key, false));
@@ -192,9 +200,11 @@ public class Main extends Application {
                     dialog.setOnCloseRequest(event -> {
                         if (dialog.isCorrect()) {
                             System.out.println("Correct");
-                        } else {
+                        }
+                        else {
                             System.out.println("Wrong");
                         }
+
                         running = true;
                     });
                     dialog.open();

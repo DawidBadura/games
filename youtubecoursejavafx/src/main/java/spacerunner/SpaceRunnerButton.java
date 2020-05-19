@@ -40,6 +40,7 @@ public class SpaceRunnerButton extends Button {
         setLayoutY(getLayoutY()+4);
     }
 
+
     private void setButtonReleasedStyle() {
         setStyle(BUTTON_FREE_STYLE);
         setPrefHeight(49);

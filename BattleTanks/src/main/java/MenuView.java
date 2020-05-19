@@ -14,12 +14,22 @@ public class MenuView {
 
     private static final int HEIGHT = 760;
     private static final int WIDTH = 1024;
+
     private AnchorPane mainPane;
+
     private Scene mainScene;
     private Stage mainStage;
 
+    private TanksSubScene onePlayerSubScene;
+    private TanksSubScene twoPlayerSubScene;
+
+    private boolean isHidden;
+
+
     private final static int MENU_BUTTONS_START_X = 100;
     private final static int MENU_BUTTONS_START_Y = 150;
+
+    TanksSubScene sceneToHide;
 
     List<MenuItem> menuButtons;
 
@@ -30,6 +40,8 @@ public class MenuView {
         mainStage = new Stage();
         mainStage.setScene(mainScene);
         mainStage.setTitle("Battle City");
+        createSubScenes();
+
 
         MenuBox menu = new MenuBox();
         createButtons();
@@ -52,18 +64,34 @@ public class MenuView {
         itemOnePlayer.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
+                //showSubScene(onePlayerSubScene);
                 GameView game=new GameView();
                 game.createNewGame(mainStage);
             }
         });
+
         MenuItem itemTwoPlayers = new MenuItem("Two Players");
-        itemTwoPlayers.setOnMouseClicked(event -> System.exit(0));
-        MenuItem itemExit = new MenuItem("Exit");
+        itemTwoPlayers.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                showSubScene(twoPlayerSubScene);
+            }
+        });
+
+        MenuItem itemEditor = new MenuItem("Map Editor");
+        itemEditor.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                EditorView editor=new EditorView();
+                editor.createNewGame(mainStage);
+            }
+        });        MenuItem itemExit = new MenuItem("Exit");
         itemExit.setOnMouseClicked(event -> System.exit(0));
 
         MenuBox menu = new MenuBox(
                 itemOnePlayer,
                 itemTwoPlayers,
+                itemEditor,
                 itemExit);
         menu.setTranslateX(350);
         menu.setTranslateY(300);
@@ -71,6 +99,25 @@ public class MenuView {
         mainPane.getChildren().add(menu);
 
     }
+
+    private void showSubScene(TanksSubScene subScene) {
+        if(sceneToHide != null){
+            sceneToHide.moveSubScene();
+        }
+        subScene.moveSubScene();
+        sceneToHide=subScene;
+    }
+
+    private void createSubScenes() {
+        onePlayerSubScene=new TanksSubScene();
+        mainPane.getChildren().add(onePlayerSubScene);
+
+        twoPlayerSubScene=new TanksSubScene();
+        mainPane.getChildren().add(twoPlayerSubScene);
+
+        //createShipChooserSubScene();
+    }
+
 
 /* BackgroundSize backgroundSize = new BackgroundSize(100, 100, true, true, true, false);
     BackgroundImage backgroundImage = new BackgroundImage(imageback, BackgroundRepeat.REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, backgroundSize);
