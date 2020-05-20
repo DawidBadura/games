@@ -28,13 +28,11 @@ public class Map {
         }
         finally {
             try {
-                br.close();
+                if(br!=null)br.close();
             } catch (IOException e) {
                 System.out.println("Unable to close file: " + file.toString());
             }
-            catch(NullPointerException ex) {
-                // File was probably never opened!
-            }
+
         }
     }
 

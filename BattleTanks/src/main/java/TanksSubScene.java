@@ -6,7 +6,6 @@ import javafx.util.Duration;
 
 public class TanksSubScene extends SubScene {
 
-    private final String FONT_PATH = "C:\\Users\\Dawid\\IdeaProjects\\Games\\youtubecoursejavafx\\src\\main\\java\\spacerunner\\resources\\kenvector_future.ttf";
     private final String BACKGROUND_IMAGE = "file:youtubecoursejavafx/src/main/java/spacerunner/resources/yellow_panel.png";
 
     private boolean isHidden;

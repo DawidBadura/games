@@ -39,7 +39,7 @@ public class GameViewManager {
 
     private ImageView[] brownMeteors;
     private ImageView[] greyMeteors;
-    Random randomPositionGenerator;
+    private Random randomPositionGenerator;
 
     private ImageView star;
     private SmallInfoLabel pointsLabel;

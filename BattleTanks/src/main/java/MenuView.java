@@ -29,9 +29,9 @@ public class MenuView {
     private final static int MENU_BUTTONS_START_X = 100;
     private final static int MENU_BUTTONS_START_Y = 150;
 
-    TanksSubScene sceneToHide;
+    private TanksSubScene sceneToHide;
 
-    List<MenuItem> menuButtons;
+    private List<MenuItem> menuButtons;
 
     public MenuView() {
         menuButtons = new ArrayList<>();
@@ -114,21 +114,6 @@ public class MenuView {
 
         twoPlayerSubScene=new TanksSubScene();
         mainPane.getChildren().add(twoPlayerSubScene);
-
-        //createShipChooserSubScene();
     }
 
-
-/* BackgroundSize backgroundSize = new BackgroundSize(100, 100, true, true, true, false);
-    BackgroundImage backgroundImage = new BackgroundImage(imageback, BackgroundRepeat.REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, backgroundSize);
-    Background background = new Background(backgroundImage);
-
-    GridPane grid = new GridPane();
-        grid.setBackground(background);
-
-    Scene scene = new Scene(grid, 1600, 900, Color.BLACK);
-
-        primaryStage.setTitle("BlackJack");
-        primaryStage.setScene(scene);
-        primaryStage.show();*/
 }

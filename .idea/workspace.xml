@@ -2,49 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dcbcd71-8770-4c20-8c56-f9fa7bebce98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BattleTanks/src/main/java/EditorView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BattleTanks/src/main/resources/brick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BattleTanks/src/main/resources/forest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BattleTanks/src/main/resources/steel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BattleTanks/src/main/resources/water.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/GameView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/GameView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/GameView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/GameView$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/GameView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/GameView$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/GameView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/MenuView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/MenuView$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/MenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/MenuView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BattleTanks/build/resources/main/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BattleTanks/build/resources/main/barrelRust_side.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BattleTanks/build/resources/main/barricadeMetal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BattleTanks/src/main/java/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/BattleTanks/src/main/java/GameView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/TanksSubScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/BattleTanks/build/classes/java/main/TanksSubScene.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BattleTanks/src/main/java/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/BattleTanks/src/main/java/Map.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BattleTanks/src/main/java/MenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/BattleTanks/src/main/java/MenuView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BattleTanks/src/main/resources/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BattleTanks/src/main/resources/barrelRust_side.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BattleTanks/src/main/resources/barricadeMetal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtubecoursejavafx/build/classes/java/main/GameDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtubecoursejavafx/build/classes/java/main/LevelData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtubecoursejavafx/build/classes/java/main/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtubecoursejavafx/build/classes/java/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtubecoursejavafx/build/classes/java/main/spacerunner/SpaceRunnerButton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/youtubecoursejavafx/build/classes/java/main/spacerunner/SpaceRunnerButton$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtubecoursejavafx/build/classes/java/main/spacerunner/SpaceRunnerButton$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/youtubecoursejavafx/build/classes/java/main/spacerunner/SpaceRunnerButton$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtubecoursejavafx/build/classes/java/main/spacerunner/SpaceRunnerButton$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/youtubecoursejavafx/build/classes/java/main/spacerunner/SpaceRunnerButton$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtubecoursejavafx/build/classes/java/main/spacerunner/SpaceRunnerButton$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/youtubecoursejavafx/build/classes/java/main/spacerunner/SpaceRunnerButton$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtubecoursejavafx/build/classes/java/main/spacerunner/SpaceRunnerButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/youtubecoursejavafx/build/classes/java/main/spacerunner/SpaceRunnerButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtubecoursejavafx/src/main/java/GameDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/youtubecoursejavafx/src/main/java/bricksgame/GameDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtubecoursejavafx/src/main/java/LevelData.java" beforeDir="false" afterPath="$PROJECT_DIR$/youtubecoursejavafx/src/main/java/bricksgame/LevelData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtubecoursejavafx/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/youtubecoursejavafx/src/main/java/bricksgame/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtubecoursejavafx/src/main/java/spacerunner/SpaceRunnerButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/youtubecoursejavafx/src/main/java/spacerunner/SpaceRunnerButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BattleTanks/src/main/java/TanksSubScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/BattleTanks/src/main/java/TanksSubScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youtubecoursejavafx/src/main/java/spacerunner/GameViewManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/youtubecoursejavafx/src/main/java/spacerunner/GameViewManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +207,7 @@
       <workItem from="1589399050914" duration="25219000" />
       <workItem from="1589580199175" duration="20579000" />
       <workItem from="1589733142139" duration="26883000" />
-      <workItem from="1589801855277" duration="23097000" />
+      <workItem from="1589801855277" duration="25886000" />
     </task>
     <servers />
   </component>
@@ -273,30 +248,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1299" y="425" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1589813987861" />
-    <state width="1921" height="219" key="GridCell.Tab.0.bottom" timestamp="1589905630061">
+    <state x="1059" y="123" width="749" height="688" key="CommitChangelistDialog2" timestamp="1589906430624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1059" y="123" width="749" height="688" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589906430624" />
+    <state width="1921" height="219" key="GridCell.Tab.0.bottom" timestamp="1589973316435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="135" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589475742041" />
     <state width="1537" height="25" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589450120563" />
-    <state width="1921" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589905630061" />
-    <state width="1921" height="219" key="GridCell.Tab.0.center" timestamp="1589905630061">
+    <state width="1921" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589973316435" />
+    <state width="1921" height="219" key="GridCell.Tab.0.center" timestamp="1589973316435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="135" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589475742041" />
     <state width="1537" height="25" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589450120563" />
-    <state width="1921" height="219" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589905630061" />
-    <state width="1921" height="219" key="GridCell.Tab.0.left" timestamp="1589905630061">
+    <state width="1921" height="219" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589973316435" />
+    <state width="1921" height="219" key="GridCell.Tab.0.left" timestamp="1589973316435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="135" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589475742041" />
     <state width="1537" height="25" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589450120563" />
-    <state width="1921" height="219" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589905630061" />
-    <state width="1921" height="219" key="GridCell.Tab.0.right" timestamp="1589905630061">
+    <state width="1921" height="219" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589973316435" />
+    <state width="1921" height="219" key="GridCell.Tab.0.right" timestamp="1589973316435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="135" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589475742041" />
     <state width="1537" height="25" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589450120563" />
-    <state width="1921" height="219" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589905630061" />
+    <state width="1921" height="219" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589973316435" />
     <state width="797" height="344" key="GridCell.Tab.1.bottom" timestamp="1586223840486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
